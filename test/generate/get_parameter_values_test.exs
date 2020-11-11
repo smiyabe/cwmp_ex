@@ -7,7 +7,7 @@ defmodule CWMP.Protocol.Generator.GetParameterValuesTest do
   </SOAP-ENV:Header>
   <SOAP-ENV:Body>
     <cwmp:GetParameterValues>
-      <ParameterNames>
+      <ParameterNames arrayType="string[1]">
         <string>Device.Test</string>
       </ParameterNames>
     </cwmp:GetParameterValues>
